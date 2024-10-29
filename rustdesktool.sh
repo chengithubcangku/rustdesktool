@@ -334,4 +334,3 @@ main() {
 initself
 checkSystem
 main
-
