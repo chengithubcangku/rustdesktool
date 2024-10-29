@@ -334,3 +334,10 @@ main() {
 initself
 checkSystem
 main
+if [[ "$1" == "rd" ]]; then
+    menuname='由快捷命令 rd 触发'
+    options=("安装" install "卸载" uninstall "查看状态" viewstatus "查看 key" viewkey "启动服务" startservice "停止服务" stopservice "升级脚本" updateself)
+    menu "${options[@]}"
+else
+    main
+fi
