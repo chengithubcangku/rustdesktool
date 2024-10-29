@@ -6,7 +6,7 @@
 > 推荐 root 用户
 
 ```sh
-wget -N  http://raw.githubusercontent.com/sshpc/rustdesktool/main/rustdesktool.sh && chmod +x ./rustdesktool.sh && ./rustdesktool.sh
+wget -N  http://raw.githubusercontent.com/chengithubcangku/rustdesktool/main/rustdesktool.sh && chmod +x ./rustdesktool.sh && ./rustdesktool.sh
 ```
 
 > 再次执行
